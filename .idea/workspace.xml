@@ -20,7 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b63b7bf5-0ac0-484d-bcbf-52e73a19d760" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.styled.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header.styles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/with-spinner/with-spinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/with-spinner/with-spinner.styles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.styled.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop.actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop.types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/homepage/HomePage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/HomePage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/homePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +97,10 @@
       <workItem from="1594717601977" duration="18288000" />
       <workItem from="1594804374160" duration="1367000" />
       <workItem from="1594885826930" duration="9173000" />
-      <workItem from="1594910115991" duration="1208000" />
+      <workItem from="1594910115991" duration="2069000" />
+      <workItem from="1594972871140" duration="12331000" />
+      <workItem from="1595045008830" duration="672000" />
+      <workItem from="1595229053221" duration="7056000" />
     </task>
     <servers />
   </component>
@@ -113,9 +135,9 @@
       <screen x="1600" y="-94" width="1920" height="1080" />
     </state>
     <state x="1904" y="181" width="585" height="530" key="find.popup/0.0.1600.870/1600.-94.1920.1080@1600.-94.1920.1080" timestamp="1594631676199" />
-    <state x="1815" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594895475616">
+    <state x="1815" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1595231057335">
       <screen x="1600" y="-94" width="1920" height="1080" />
     </state>
-    <state x="1815" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1600.870/1600.-94.1920.1080@1600.-94.1920.1080" timestamp="1594895475616" />
+    <state x="1815" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1600.870/1600.-94.1920.1080@1600.-94.1920.1080" timestamp="1595231057335" />
   </component>
 </project>
