@@ -20,19 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b63b7bf5-0ac0-484d-bcbf-52e73a19d760" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/collections-overview/collections-overview.container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/collection/collection.container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.sagas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/root-saga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop.sagas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/user/user.sagas.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/collection/collection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/collection/collection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-up/sign-up.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up/sign-up.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart-actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-actiontypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart-actiontypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart-reducers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user-actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user-actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user/user-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user/user-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user-action-types.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,16 +66,18 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Web_projects\REACT\Eng React\crwm-clothing-react\src\assets" />
-      <recent name="C:\Web_projects\REACT\Eng React\crwm-clothing-react\src\components\menu-item" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Web_projects\REACT\Eng React\crwm-clothing-react\src\redux\user" />
       <recent name="C:\Web_projects\REACT\Eng React\crwm-clothing-react\public" />
       <recent name="C:\Web_projects\REACT\Eng React\crwm-clothing-react\src\redux\shop" />
       <recent name="C:\Web_projects\REACT\Eng React\crwm-clothing-react\src\pages\homepage" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Web_projects\REACT\Eng React\crwm-clothing-react\src\assets" />
+      <recent name="C:\Web_projects\REACT\Eng React\crwm-clothing-react\src\components\menu-item" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -93,7 +102,10 @@
       <workItem from="1594910115991" duration="2069000" />
       <workItem from="1594972871140" duration="12331000" />
       <workItem from="1595045008830" duration="672000" />
-      <workItem from="1595229053221" duration="15302000" />
+      <workItem from="1595229053221" duration="15816000" />
+      <workItem from="1595310331753" duration="11544000" />
+      <workItem from="1595353206939" duration="1832000" />
+      <workItem from="1595402486181" duration="4680000" />
     </task>
     <servers />
   </component>
@@ -128,9 +140,9 @@
       <screen x="1600" y="-94" width="1920" height="1080" />
     </state>
     <state x="1904" y="181" width="585" height="530" key="find.popup/0.0.1600.870/1600.-94.1920.1080@1600.-94.1920.1080" timestamp="1594631676199" />
-    <state x="1815" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1595241099041">
+    <state x="1815" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1595405997564">
       <screen x="1600" y="-94" width="1920" height="1080" />
     </state>
-    <state x="1815" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1600.870/1600.-94.1920.1080@1600.-94.1920.1080" timestamp="1595241099041" />
+    <state x="1815" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1600.870/1600.-94.1920.1080@1600.-94.1920.1080" timestamp="1595405997564" />
   </component>
 </project>
